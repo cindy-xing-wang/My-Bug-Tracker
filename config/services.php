@@ -36,6 +36,6 @@ return [
         //'client_secret' => env('GOOGLE_CLIENT_SECRET'),
         'client_secret' => "AVRVZiy3hYFql47y7u_4kvuD",
         //'redirect' => 'http://localhost/myBugTracker/public/login/google/callback',
-        'redirect' => 'http://laravelmybugtracker.herokuapp.com/login',
+        'redirect' => 'http://laravelmybugtracker.herokuapp.com/login/google/callback',
     ],
 ];
