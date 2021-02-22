@@ -35,6 +35,7 @@ return [
         'client_id' => "122076614384-goneb1kdoepnv089cjrsp256t88lnlcn.apps.googleusercontent.com",
         //'client_secret' => env('GOOGLE_CLIENT_SECRET'),
         'client_secret' => "AVRVZiy3hYFql47y7u_4kvuD",
-        'redirect' => 'http://localhost/myBugTracker/public/login/google/callback',
+        //'redirect' => 'http://localhost/myBugTracker/public/login/google/callback',
+        'redirect' => 'http://laravelmybugtracker.herokuapp.com/login',
     ],
 ];
